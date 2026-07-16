@@ -12,7 +12,7 @@ If you don't like a given mod or tweak, each one can be disabled in the mod star
 
 ## Compatible mods
 
-t.b.d.
+- [Lignumis](https://mods.factorio.com/mod/lignumis)
 
 If you want to see another mod supported, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.

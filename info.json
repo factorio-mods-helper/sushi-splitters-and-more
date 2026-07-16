@@ -11,13 +11,18 @@
     "(?) quality >= 2.0.77",
     "? space-age >= 2.0.77",
 
+    "flib >= 0.16.5",
     "khaoslib >= 1.17.1",
 
-    "(?) Flare Stack >= 4.1.1"
+    "sushi-splitters >= 0.2.1",
+    "sushi-splitters-lib >= 2.0.0",
+
+    "? lignumis >= 1.10.0",
+    "? wood-logistics >= 2.5.5"
   ],
   "package": {
     "ignore": [
-      "**/*.xcf "
+      "**/*.xcf"
     ]
   }
 }
