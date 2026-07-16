@@ -1,12 +1,23 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESCRIPTION###",
+  "name": "sushi-splitters-and-more",
+  "title": "Sushi Splitters and More",
+  "description": "Adds Sushi Splitters support to several other mods and tweaks it a bit. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.77"
-  ]
+    "base >= 2.0.77",
+    "(?) quality >= 2.0.77",
+    "? space-age >= 2.0.77",
+
+    "khaoslib >= 1.17.1",
+
+    "(?) Flare Stack >= 4.1.1"
+  ],
+  "package": {
+    "ignore": [
+      "**/*.xcf "
+    ]
+  }
 }
