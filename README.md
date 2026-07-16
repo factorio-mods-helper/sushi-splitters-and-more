@@ -13,6 +13,10 @@ If you don't like a given mod or tweak, each one can be disabled in the mod star
 ## Compatible mods
 
 - [Lignumis](https://mods.factorio.com/mod/lignumis)
+- [Wooden Logistics](https://mods.factorio.com/mod/wood-logistics)ᵃ
 
 If you want to see another mod supported, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.
+
+ᵃ: Support is already added by the original mod, but this mod adds a compatibility flag in the settings to disable it if
+you don't want it and also utilizes the new graphics from [QuingKhaos' Kitbashing Toolkit](https://mods.factorio.com/mod/khaosbash).
