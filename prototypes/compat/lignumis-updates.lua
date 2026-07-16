@@ -1,14 +1,14 @@
 local flib_locale = require("__flib__.locale")
 local khaosbash = require("__khaosbash__.prototypes.lib")
+local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 
 if mods["lignumis"] and settings.startup["sushi-splitters-and-more-compat-lignumis"].value then
   local new_icons = khaosbash.load_icons("__khaosbash__/graphics/base/icons/splitter-south", util.color("896245"))
 
-  khaoslib_item:load("sushi-wood-splitter")
-      :set_icons(new_icons)
-      :commit()
+  khaoslib_entity:load("splitter", "sushi-wood-splitter"):set_icons(new_icons):commit()
+  khaoslib_item:load("sushi-wood-splitter"):set_icons(new_icons):commit()
 
   local recipes = {
     "sushi-wood-splitter",
