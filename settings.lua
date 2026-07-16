@@ -19,3 +19,11 @@ if mods["wood-logistics"] then
     order = "a[compat]-a[wood-logistics]",
   } :commit()
 end
+
+khaoslib_setting:load {
+  type = "bool-setting",
+  name = "sushi-splitters-and-more-tweaks-recipe-hints",
+  setting_type = "startup",
+  default_value = true,
+  order = "a[tweaks]-a[recipe-hints]",
+} :commit()
