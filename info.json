@@ -22,6 +22,9 @@
   ],
   "package": {
     "ignore": [
+      "mod_info.yml",
+      "**/*.md",
+      "**/*.svg",
       "**/*.xcf"
     ]
   }
