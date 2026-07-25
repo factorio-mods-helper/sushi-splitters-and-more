@@ -4,7 +4,7 @@
   "description": "Adds Sushi Splitters support to several other mods and tweaks it a bit. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
@@ -12,11 +12,13 @@
     "? space-age >= 2.0.77",
 
     "flib >= 0.16.5",
-    "khaoslib >= 1.17.1",
+    "khaoslib >= 1.17.2",
 
-    "sushi-splitters >= 0.2.1",
+    "sushi-splitters >= 0.2.2",
     "sushi-splitters-lib >= 2.0.0",
 
+    "? Krastorio2 >= 2.0.19",
+    "? Krastorio2-spaced-out >= 1.6.21",
     "? lignumis >= 1.10.0",
     "? wood-logistics >= 2.5.5"
   ],

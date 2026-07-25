@@ -6,6 +6,8 @@ Adds [Sushi Splitters](https://mods.factorio.com/mod/sushi-splitters) support to
 
 ## Compatible mods
 
+- [Krastorio 2](https://mods.factorio.com/mod/Krastorio2)ᵃ
+- [Krastorio 2 Spaced Out](https://mods.factorio.com/mod/Krastorio2-spaced-out)ᵃ
 - [Lignumis](https://mods.factorio.com/mod/lignumis)
 - [Wooden Logistics](https://mods.factorio.com/mod/wood-logistics)ᵃ
 
